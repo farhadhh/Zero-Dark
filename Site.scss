@@ -1,4 +1,5 @@
-$Sec_Color : #828080;
+$Darker_Color : #828080;
+$Lighter_Color: #f7f8fa;
 
 
 body{
@@ -12,6 +13,9 @@ input{
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+img{
+    border-radius: 7px;
+}
 
 a{
     text-decoration: none;
@@ -26,7 +30,7 @@ a{
 .header{
     
     background-color: white;
-    padding:15px 0;
+    padding:10px 0;
 }
 
 
@@ -43,10 +47,10 @@ a{
 }
 
 .topHeader{
-        color: $Sec_Color;
+        color: $Darker_Color;
 }
 .topHeader a{
-    color:$Sec_Color;
+    color:$Darker_Color;
 }
 
 .topHeader a:hover{
@@ -92,27 +96,33 @@ a{
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     border: 1px solid; 
-    border-color: $Sec_Color;
+    border-color: $Darker_Color;
     max-width: 420px;
     width: 90%;
     padding: 10px;
+
     float: left;
 }
 
+.SearchTool button{
+    cursor: pointer;
+}
+
 .searchIcon{
+
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     border:none;
-    padding: 11px;
+    height: 38px;
     padding-left: 12px;
     padding-right: 12px;
-    background-color: $Sec_Color;
+    background-color: $Darker_Color;
     color: white;
 }
 
 .headerMenus{
     padding: 5px 0;
-      background: #f7f8fa;
+      background: $Lighter_Color;
     width: 100%;
 }
 
@@ -133,4 +143,42 @@ a{
 
 .MenuItem{
     margin-right: 10px;
+}
+
+.FirstImg{
+    margin-bottom: 10px;
+}
+
+.container{
+    max-width: 960px;
+}
+
+.middleWare{
+    float: left;
+    margin-right: 10px;
+}
+
+footer{
+
+    margin-top: 10px;
+}
+
+.footerContent{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footerUpperContent{
+        background: $Darker_Color;
+    color: white;
+    padding: 15px 2px;
+}
+
+.footerUpperContent label{
+    margin-right: 30px;
+}
+
+.footerMiddleContent{
+    background: $Lighter_Color;
+    padding: 30px 0;
 }
