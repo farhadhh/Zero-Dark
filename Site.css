@@ -1,0 +1,56 @@
+body{
+    margin: 0 auto;
+    min-width: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    border: 1px solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    
+    background-color: white;
+    padding: 15px;
+}
+
+
+.headerContent{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.topHeader{
+        color:gray;
+}
+.topHeader a{
+    color: gray;
+}
+
+.topHeader a:hover{
+    color: red;
+}
+
+.welcomLogin{
+    float: left;
+}
+
+.register{
+    padding-left: 3%;
+    float: left;
+}
+
+.giftCart{
+     padding-left: 3%;
+    float: left;
+}
