@@ -1,0 +1,136 @@
+$Sec_Color : #828080;
+
+
+body{
+    margin: 0 auto;
+    min-width: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+input{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    
+    background-color: white;
+    padding:15px 0;
+}
+
+
+.headerContent{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.logo{
+    float: right;
+}
+
+.topHeader{
+        color: $Sec_Color;
+}
+.topHeader a{
+    color:$Sec_Color;
+}
+
+.topHeader a:hover{
+    color: red;
+}
+
+.welcomLogin{
+    float: left;
+    margin-right: 3%;
+}
+
+.register{
+    margin-right: 3%;
+    float: left;
+}
+
+.searchHeader{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.CartHeaderDiv{
+    background-color: mediumseagreen;
+    float: left;
+    padding: 11px;
+    margin-right: 3%;
+    border-radius: 3px;
+
+
+}
+.CartHeaderDiv label{
+    background-color: limegreen;
+    padding:2px 5px;
+    border-radius: 50%;
+}
+.CartHeaderDiv a{
+        color: white;
+}
+
+
+.SearchTool input{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid; 
+    border-color: $Sec_Color;
+    max-width: 420px;
+    width: 90%;
+    padding: 10px;
+    float: left;
+}
+
+.searchIcon{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border:none;
+    padding: 11px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: $Sec_Color;
+    color: white;
+}
+
+.headerMenus{
+    padding: 5px 0;
+      background: #f7f8fa;
+    width: 100%;
+}
+
+.MenuItems{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+.MenuItems nav{
+    padding: 5px 0;
+}
+.MenuItems a{
+    color: #504e4e;
+}
+.MenuItems i{
+    padding: 0 5px;
+}
+
+.MenuItem{
+    margin-right: 10px;
+}
